@@ -1,0 +1,27 @@
+# ---- Android / Gradle ----
+*.iml
+.gradle/
+.kotlin/
+/local.properties
+**/local.properties
+.idea/
+.DS_Store
+build/
+**/build/
+captures/
+.externalNativeBuild/
+.cxx/
+*.apk
+*.aab
+*.keystore
+*.jks
+
+# ---- Arduino / build artifacts ----
+*.hex
+*.bin
+*.elf
+build/
+
+# ---- OS ----
+Thumbs.db
+__MACOSX/
