@@ -75,6 +75,16 @@ cd android/WearMe_01
 
 ---
 
+## 📈 Resultados y validación
+
+- **Tarea:** clasificación **binaria** (evento de eructo vs. no evento) a partir de la señal de la IMU, altamente dependiente del movimiento del animal.
+- **Datos:** ~**8 horas** de sesiones reales de campo con ganado bovino.
+- **Inferencia on-device en tiempo real** (~1 predicción/s) sobre el nRF52840, sin dependencia de la nube.
+- **Validación cruzada de hardware:** el modelo se entrenó con un dispositivo de generación anterior y se verificó en el dispositivo actual, confirmando su generalización entre dos generaciones de hardware.
+- **Precisión:** ~**70 %** en condiciones de campo (señal ruidosa, sujeto en movimiento) — un escenario considerablemente más exigente que un dataset controlado de laboratorio.
+
+---
+
 ## 📊 Datos
 
 Las sesiones de captura en campo (CSV con datos de IMU, metano y ambiente etiquetados por animal) se encuentran en el repositorio relacionado [`Codigo_tesis`](https://github.com/juancamiloamarillo41-cloud/Codigo_tesis).
