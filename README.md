@@ -1,6 +1,6 @@
 # WearMe — Wearable de detección de metano entérico en ganado 🐄
 
-**WearMe** es un dispositivo *wearable* de extremo a extremo para la **detección y monitoreo en tiempo real de metano entérico (eructos)** en ganado bovino, desarrollado como proyecto de investigación de Ingeniería Mecatrónica en la Pontificia Universidad Javeriana.
+**WearMe** es un dispositivo *wearable* de extremo a extremo para la **detección y monitoreo en tiempo real de metano entérico (eructos)** en ganado bovino, desarrollado en el **Instituto iOMICAS** de la Pontificia Universidad Javeriana.
 
 El sistema integra **hardware propio (PCB)**, **firmware con inferencia de Machine Learning embebido (TinyML)** y una **aplicación móvil Android** que recibe los datos por Bluetooth Low Energy (BLE) y graba video sincronizado de cada sesión para validación.
 
@@ -87,9 +87,9 @@ Las sesiones de captura en campo (CSV con datos de IMU, metano y ambiente etique
 
 ## 👤 Autor
 
-**Juan Camilo Amarillo Morales** — Ingeniería Mecatrónica, Pontificia Universidad Javeriana
+**Juan Camilo Amarillo Morales** — Ingeniería Mecatrónica · Instituto iOMICAS, Pontificia Universidad Javeriana
 📧 juancamiloamarillo41@gmail.com
 
 ## 📄 Licencia
 
-Publicado con fines académicos y de portafolio bajo licencia [MIT](LICENSE). Los datos de investigación pueden estar sujetos a las políticas del grupo de investigación asociado.
+Publicado con fines académicos y de portafolio bajo licencia [MIT](LICENSE). Los datos de investigación pueden estar sujetos a las políticas del Instituto iOMICAS.
