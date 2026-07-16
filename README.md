@@ -1,10 +1,37 @@
-# WearMe — Wearable de detección de metano entérico en ganado 🐄
+# WearMe — TinyML para monitoreo de metano entérico en ganado
+
+<p align="center">
+  <img src="android/WearMe_01/app/src/main/res/drawable/logo_app.png" alt="Logo de WearMe" width="120">
+</p>
+
+<p align="center">
+  <img alt="Kotlin" src="https://img.shields.io/badge/Kotlin-Jetpack_Compose-7F52FF?style=flat-square&logo=kotlin&logoColor=white">
+  <img alt="TinyML" src="https://img.shields.io/badge/TinyML-Edge_Impulse-2B6CB0?style=flat-square">
+  <img alt="Hardware" src="https://img.shields.io/badge/Hardware-nRF52840-00A9CE?style=flat-square">
+  <img alt="License" src="https://img.shields.io/badge/License-MIT-2F855A?style=flat-square">
+</p>
 
 **WearMe** es un dispositivo *wearable* de extremo a extremo para la **detección y monitoreo en tiempo real de metano entérico (eructos)** en ganado bovino, desarrollado en el **Instituto iOMICAS** de la Pontificia Universidad Javeriana.
 
 El sistema integra **hardware propio (PCB)**, **firmware con inferencia de Machine Learning embebido (TinyML)** y una **aplicación móvil Android** que recibe los datos por Bluetooth Low Energy (BLE) y graba video sincronizado de cada sesión para validación.
 
 > El metano entérico del ganado es una de las mayores fuentes de gases de efecto invernadero del sector agropecuario. WearMe busca medirlo en campo, de forma no invasiva y en tiempo real.
+
+## Resultados clave
+
+| Indicador | Resultado |
+|---|---|
+| Datos de validación | Aproximadamente **8 horas** de sesiones reales de campo |
+| Desempeño del modelo | Cerca de **70 % de precisión** en condiciones de campo |
+| Inferencia | Alrededor de **1 predicción por segundo**, ejecutada en el dispositivo |
+| Hardware | Validación entre **2 generaciones** de hardware |
+| Aplicación móvil | Adquisición BLE, visualización y video sincronizado en Android |
+
+## Mi contribución
+
+- Desarrollo de la aplicación Android en Kotlin y Jetpack Compose, incluyendo comunicación BLE/GATT, visualización de sensores, historial de sesiones y grabación de video con CameraX.
+- Procesamiento de datos de IMU y apoyo en la preparación y validación del modelo TinyML.
+- Integración de la inferencia de Edge Impulse en el XIAO nRF52840 y verificación del modelo con datos reales de campo.
 
 ---
 
@@ -97,7 +124,7 @@ Las sesiones de captura en campo (CSV con datos de IMU, metano y ambiente etique
 
 ## 👤 Autor
 
-**Juan Camilo Amarillo Morales** — Ingeniería Mecatrónica · Instituto iOMICAS, Pontificia Universidad Javeriana
+**Juan Camilo Amarillo Morales** — Estudiante de Ingeniería Mecatrónica · Instituto iOMICAS, Pontificia Universidad Javeriana
 📧 juancamiloamarillo41@gmail.com
 
 ## 📄 Licencia
